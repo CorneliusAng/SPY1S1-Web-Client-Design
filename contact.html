@@ -1,0 +1,112 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<!-- Head (css, language, favicon, etc.) -->
+<head>
+	<title>Egg Int. - Contact us</title>
+	<!-- 
+         Filename: contact.html
+         Author:    Cornelius Ang 
+         Date:     18/5/18
+      -->
+	<meta charset="utf-8">
+	<meta content="width=device-width" name="viewport">
+	<script src="javascripts/modernizr.custom.40753.js">
+	</script>
+	<script src="javascripts/goToTop.js">
+	</script>
+	<link href='http://fonts.googleapis.com/css?family=Bitter:400,700' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+	<link href="css/styles.css" rel="stylesheet">
+	<link href="image/favicon.png" rel="shortcut icon">
+</head>
+<!-- Body (header, article, footer, etc.) -->
+<body>
+	<div class="container">
+		<!-- Header -->
+		<header>
+			<h1><a href="index.html"><img alt="Egg Int." class="headereggimg" src="image/logo2.png" title="Egg Int."><br>
+			Egg Int.</a></h1>
+		</header>
+		<!-- Site navigation -->
+		<nav class="sitenavigation">
+			<p><a href="index.html">Home</a></p>
+			<p><a href="aboutus.html">About Us</a></p>
+			<p><a href="eggs.html">Eggs</a></p>
+			<p><a class="active" href="contact.html">Contact Us</a></p>
+			<!-- <p><a href="https://www.google.com/maps">Location</a></p> -->
+		</nav>
+		<!-- Article -->
+		<article id="contentstart">
+			<h2>Contact Us</h2>
+			<p id="contactus">Buying our eggs? Kindly enter your credit card credentials and address. Dying to have your questions or concerns answered? Feel free to contact us! Just fill in the spaces below with the required information. We will do our best to get back to you as soon as possible!</p>
+			<form action="results.html" class="contact-form">
+				<p class="form-instructions padding-top">*All fields are required</p>
+				<fieldset class="contactinfo">
+					<label for="nameinput"></label>
+					<p><label for="nameinput">Name:</label></p><label for="nameinput"><input id="nameinput" name="name" required="" type="text"></label> <label for="emailinput"></label>
+					<p><label for="emailinput">Email:</label></p><label for="emailinput"><input id="emailinput" name="email" required="" type="email"></label>
+				</fieldset>
+				<fieldset class="additionalinfo">
+					<label for="other-info"></label>
+					<p><label for="other-info">Feedback/Purchase:</label></p><label for="other-info">
+					<textarea cols="50" id="other-info" name="other-info" required="" rows="5"></textarea></label>
+				</fieldset>
+				<div>
+					<label><input required="" type="checkbox"> "I am not a bot"</label>
+				</div>
+				<fieldset class="submitbutton">
+					<input id="submit" type="submit" value="Submit">
+				</fieldset>
+			</form>
+			<div class="feedback-preview">
+				<div class="table-row">
+					<div class="table-cell">
+						<p>To:</p>
+					</div>
+					<div class="table-cell">
+						<p>Cornelius Ang,</p>
+						<p>Egg Int.</p>
+					</div>
+				</div>
+				<div class="table-row">
+					<div class="table-cell">
+						<p>From:</p>
+					</div>
+					<div class="table-cell">
+						<p class="feedback-from"></p>
+					</div>
+				</div>
+				<div class="table-row">
+					<div class="table-cell">
+						<p>Subject:</p>
+					</div>
+					<div class="table-cell">
+						<p>Feedback/</p>
+						<p>Purchase</p>
+					</div>
+				</div>
+				<div class="table-row">
+					<div class="table-cell">
+						<p>Message:</p>
+					</div>
+				</div>
+				<p class="feedback-content"></p>
+			</div>
+			<p class="bold padding-top">Email to:</p>
+			<p class="padding-top">example@live.com</p>
+			<p class="bold padding-top">Phone:</p>
+			<p class="padding-top">+65 9876 5432</p>
+			<p class="bold padding-top">Address:</p>
+			<p class="padding-top">50 Raffles Pl #22-01,048623, Singapore</p>
+		</article>
+		<!-- Footer -->
+		<button id="myButton" onclick="topFunction()" title="Go to top">Go to top</button>
+		<footer>
+			<b><a href="https://www.facebook.com/Egg-Int-1366187163515571/?modal=admin_todo_tour">Facebook</a> <a href="https://www.instagram.com/">Instagram</a></b>
+			<p>Copyright &#169; 2018. Egg Int. Pte Ltd. All Rights Reserved.</p>
+		</footer>
+		<script src="javascripts/getFeedback.js">
+		</script>
+	</div>
+</body>
+</html>
